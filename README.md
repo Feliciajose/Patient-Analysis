@@ -1,12 +1,12 @@
 # Patient Data Analysis – Python & Power BI  
 
-## 📌 Overview  
+## Overview  
 This project combines **inpatient** and **outpatient** datasets into a single unified **patient dataset**, performs **data cleaning**, **exploratory data analysis (EDA)**, and generates **visualizations** using Python.  
 The cleaned dataset can also be exported for use in **Power BI dashboards**.  
 
 ---
 
-## ⚙️ Features  
+## Features  
 - Load and merge multiple inpatient & outpatient CSV datasets (2018–2021).  
 - Add a `Case_Type` column to differentiate Inpatient vs Outpatient records.  
 - Data Cleaning:  
@@ -25,7 +25,7 @@ The cleaned dataset can also be exported for use in **Power BI dashboards**.
 
 ---
 
-## 🛠️ Technologies Used  
+## Technologies Used  
 - **Python 3.x**  
 - **Pandas** – Data loading, cleaning, preprocessing  
 - **NumPy** – Numerical operations  
@@ -34,7 +34,7 @@ The cleaned dataset can also be exported for use in **Power BI dashboards**.
 
 ---
 
-## 📂 File Structure  
+## File Structure  
 ```
 patient_analysis.py          # Main Python script  
 Op_WL 2018.csv               # Outpatient dataset 2018  
@@ -51,7 +51,7 @@ README.md                    # Project documentation
 
 ---
 
-## ▶️ How to Run  
+## How to Run  
 1. Install dependencies:  
    ```bash
    pip install pandas matplotlib seaborn
@@ -71,7 +71,7 @@ README.md                    # Project documentation
 
 ---
 
-## 📊 Example Insights  
+## Example Insights  
 - Outpatient vs Inpatient patient count distribution.  
 - Yearly trends across 2018–2021.  
 - Top 10 specialities by patient count.  
@@ -80,15 +80,9 @@ README.md                    # Project documentation
 
 ---
 
-## 🚀 Future Enhancements  
+## Future Enhancements  
 - Automate export to Power BI via APIs.  
 - Add advanced statistical analysis (correlation, regression).  
 - Include anomaly detection for patient waitlists.  
-
----
-
-## 👩‍💻 Author  
-**Felicia R P**  
-Reg. No: 313522104035  
 Internship at **QSpiders, Panimalar Engineering College (Chennai)**  
 Duration: **July 1, 2025 – August 1, 2025**  
